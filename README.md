@@ -1,4 +1,4 @@
-#NY Times Topic Modelling Approach Note
+NY Times Topic Modelling Approach Note
 
 Firstly, I extracted the news using the New York Times archive api for the month of January,2019. There are about 7,000 headlines along with the URL to the pages of the articles.
 Secondly, I used beautiful soup to extract the news articles correponding to each headline and concatenated it with the headlines.After that I did some cleaning like taking only news in english language and created a custom list of stopwords.
